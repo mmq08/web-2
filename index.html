@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+    <html>
+<script>   
+function clickhere(){
+alert("hi this is my script")
+}
+
+
+function newwindow()
+{
+    var mywindow = window.open("///C:/Users/mmqua/Desktop/web/test.html","","width=300px;height=200px;");
+  //  mywindow.document.wirte("<p> A new window </p>");
+  mywindow.blur();
+}
+
+
+</script>
+<style>
+* {box-sizing: border-box}
+
+body, html {
+height: 100%;
+margin:0;
+}
+
+/* create tabs */
+.tabs{
+background-color: beige;
+color:black;
+border:none;
+cursor:pointer;
+width: 33%;
+padding: 14px 16px;
+
+}
+.tabs:hover{
+    background-color: cadetblue;
+}
+
+.tabcontent {
+display:none;
+padding:100px 20px;
+height:100%;
+color: crimson;
+}
+#home {background-color: cyan;}
+#profile {background-color: darkgreen;}
+#about {background-color: darkblue;}
+</style>
+
+<body>
+<button class="tabs" > home </button>
+<button class="tabs" > profile </button>
+<button class="tabs" > about </button>
+
+<div id="home" class=tabcontent>
+ <h2> home</h2>
+
+</div>
+
+<div id="profile" class=tabcontent>
+    <h2> profile</h2>
+   
+   </div>
+
+   <div id="about" class=tabcontent>
+    <h2> about</h2>
+   
+   </div>
+
+<img src="chocolate-lab-puppies-11 (1).jpg">
+<p>
+choclate labs are my favorite type of dog.I like them because I have a 6 year old chocolate lab named Charlie. He is the baest dog I have ever known. Exept for when he gets out.I love chocolate labs so thats why this picture is of one. 
+
+
+</p>
+
+<!-- alert-->
+<input  style="width:300px;height:100px;" type=button onclick="clickhere();"> </button>
+
+<br>
+
+<a href ="" onclick="newwindow();">  link</a>
+
+
+
+
+
+
+
+</body>
+
+    </html>
